@@ -1,0 +1,23 @@
+.Image {
+    width: 400px;
+    height:250px;
+  }
+  
+  .Title {
+    color: rgb(2, 62, 125);
+    width: fit-content !important;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Title h1 {
+    font-weight: bolder !important;
+  }
+  
+  
+  @media (min-width: 1000px) {
+    .Image {
+      width: auto;
+      height: auto;
+    }
+  }

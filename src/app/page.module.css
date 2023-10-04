@@ -1,0 +1,28 @@
+.iiotImage {
+  width: 300px;
+  height: 250px;
+}
+
+.iiotTitle {
+  color: rgb(2, 62, 125);
+  width: fit-content !important;
+  display: flex;
+  justify-content: center;
+}
+
+.iiotTitle h1 {
+  font-weight: bolder !important;
+}
+
+.iiotSubmitButton {
+  border-color: rgb(2, 62, 125) !important;
+  background-color: rgb(2, 62, 125) !important;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .iiotImage {
+    width: 520px;
+    height: 520px;
+  }
+}

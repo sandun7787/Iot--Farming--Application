@@ -1,0 +1,32 @@
+.temperature-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature-chart-header {
+  margin-top: 0;
+}
+
+.temperature-chart-select {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.chart-wrapper {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.line-chart {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .chart-wrapper {
+    padding: 0 16px;
+  }
+}

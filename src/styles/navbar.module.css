@@ -1,0 +1,72 @@
+.navFrame {
+  padding-bottom: 56px;
+}
+
+.cusNavBar {
+  padding-left: 10px !important;
+  background-color: rgb(0, 18, 51) !important;
+}
+
+.logo {
+  color: white !important;
+  width: 80px;
+  height: auto;
+}
+
+.menu {
+  margin-right: 5px;
+  width: 40px;
+  height: 35px;
+}
+
+.navOption {
+  margin-top: 10px;
+}
+
+.userControl {
+  display: none !important;
+}
+
+.pcDash {
+  display: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cusNavBar {
+    padding-left: 50px !important;
+    padding-right: 55px !important;
+  }
+
+  .navFrame {
+    padding-bottom: 117px;
+  }
+
+  .logo {
+    color: white !important;
+    padding: 7px 0;
+    width: 180px;
+    height: auto;
+  }
+
+  .navOption {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .navLi {
+    display: none !important;
+  }
+
+  .userControl {
+    display: block !important;
+  }
+
+  .pcDash {
+    display: block;
+  }
+
+  .mobileDash {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "slt-iot-web-application",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "debug": "^4.3.4",
+    "encoding": "^0.1.13",
+    "firebase": "^9.23.0",
+    "mysql2": "^3.5.0",
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-progressbar-semicircle": "^1.2.1",
+    "react-toastify": "^9.1.3",
+    "recharts": "^2.7.2"
+  }
+}

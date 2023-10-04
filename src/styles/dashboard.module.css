@@ -1,0 +1,67 @@
+.sideBar {
+  display: none !important;
+}
+
+.dashTopic {
+  font-weight: 700 !important;
+  color: rgb(1, 84, 153);
+  padding: 15px 0;
+}
+
+.plot {
+  padding: 30px 15px 0px;
+}
+
+.chartTitle {
+  color: rgb(3, 83, 164) !important;
+  font-weight: 600 !important;
+  font-size: 25px;
+}
+
+.tempChartOption {
+  padding: 20px 65px !important;
+}
+
+/* styles/dashboard.module.css */
+.dashboardhartContainer {
+  max-width: 400px; /* Adjust the maximum width as per your requirement */
+  max-height: 200px; /* Adjust the maximum height as per your requirement */
+  margin: 0 auto; /* To center the chart horizontally */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .sideBar {
+    display: block !important;
+    height: auto;
+  }
+
+  .plot {
+    padding: 50px 50px 0px;
+  }
+
+  .btnActive {
+    background-color: rgb(3, 83, 164) !important;
+  }
+
+  .signout {
+    border-color: rgb(4, 102, 200) !important;
+    color: rgb(4, 102, 200) !important;
+    margin-bottom: 50px;
+  }
+
+  .signout:hover {
+    color: white !important;
+    background-color: rgb(4, 102, 200) !important;
+  }
+
+  .chartTitle {
+    color: rgb(3, 83, 164) !important;
+    font-weight: 600 !important;
+    font-size: 30px;
+  }
+
+  .tempChartOption {
+    padding: 20px 65px !important;
+  }
+}
